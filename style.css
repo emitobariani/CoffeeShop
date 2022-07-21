@@ -265,6 +265,24 @@ main{
     .titulo-main{
         font-size: 1.5rem;
     }
+    .suscripcion-titulo{
+        font-size: 2.5rem;
+    }
+    .suscripcion-descripcion{
+        font-size: 1.2rem;
+        width: 80%;
+        margin-left: 5%;
+        margin-right:5%;
+    }
+    .sub-tiers{
+        width: 30%;
+        height: 90%;
+    }
+    .sus-desc{
+        margin-left: 8%;
+        align-self: center;
+        width: 100%;
+    }
 }
 
 @media (max-width: 1023px) and (min-width: 768px){
@@ -294,6 +312,34 @@ main{
     .titulo-main{
         font-size: 1.5rem;
     }
+    .suscripcion-titulo{
+        font-size: 1.9rem;
+
+    }
+    .suscripcion-descripcion{
+        font-size: 1.3rem;
+        width: 90%;
+        margin-left: 2%;
+        margin-right:2%;
+    }
+    .sub-tiers{
+        justify-content: flex-start;
+        width: 30%;
+        height: 90%;
+
+    }
+    .sus-desc{
+        text-align: center;
+        align-self: center;
+        width: 100%;
+    }
+    .titulo-sub{
+        margin-top: 15px;
+        font-size: 1.5rem;
+        text-align: center;
+        
+    }
+    
 }
 
 @media (max-width: 767px) and (min-width: 479px){
@@ -335,6 +381,65 @@ main{
     .titulo-main{
         font-size: 1.25rem;
     }
+    .suscripcion-titulo{
+        font-size: 1.8rem;
+        text-align: center;
+
+    }
+    .suscripcion-descripcion{
+        text-align: center;
+        font-size: 1.0rem;
+        width: 90%;
+        margin-left: 2%;
+        margin-right:2%;
+    }
+    .div-descripcion{
+        height: 20%;
+    }
+    .div-op{
+        justify-content: space-around;
+        flex-direction: column;
+        height: 60%;
+    }
+    .sub-tiers{ 
+        justify-content: flex-start;
+        width: 80%;
+        height: 15%;
+        overflow: hidden;
+
+    }
+    .sub-tiers:hover{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        justify-content: flex-start;
+        width: 80%;
+        height: 70%;
+        overflow: hidden;
+
+    }
+    .sus-desc{
+        font-size: 0.8rem;
+        text-align: center;
+        align-self: center;
+        width: 100%;
+    }
+    .titulo-sub{
+      
+        margin: 10px 0px;
+        font-size: 1.8rem;
+        justify-self: center;
+        text-align: center;
+        
+    }
+    .item-sub{
+        font-size: 0.8rem;
+    }
+    .precio-sub{
+        font-size: 1.5rem;
+    }
+    .coffee-subs{
+        width: 20%;
+    }
 }
 @media (max-width: 478px) and (min-width: 320px){
     .icono-cafe{
@@ -347,7 +452,8 @@ main{
         margin-right: 10px;
     }
     .opciones-barra{
-        font-size: 0.72rem;
+        margin-left: 10px;
+        font-size: 0.75rem;
         width: 70%;
         justify-content:center;
     }
@@ -388,5 +494,66 @@ main{
     .titulo-main{
         width: 100%;
         font-size: 1.25rem;
+    }
+    .suscripcion-titulo{
+        margin-top: 10px;
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
+    .suscripcion-descripcion{
+        text-align: center;
+        font-size: 0.8rem;
+        width: 90%;
+        margin-left: 2%;
+        margin-right:2%;
+    }
+    .div-descripcion{
+        height: 20%;
+    }
+    .div-op{
+        justify-content: space-around;
+        flex-direction: column;
+        height: 60%;
+    }
+    .sub-tiers{ 
+        justify-content: flex-start;
+        width: 80%;
+        height: 15%;
+        overflow: hidden;
+
+    }
+    .sub-tiers:hover{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        justify-content: flex-start;
+        width: 80%;
+        height: 70%;
+        overflow: hidden;
+
+    }
+    .sus-desc{
+        font-size: 0.8rem;
+        text-align: center;
+        align-self: center;
+        width: 100%;
+    }
+    .titulo-sub{
+      
+        margin: 10px 0px;
+        font-size: 3rem;
+        justify-self: center;
+        text-align: center;
+        
+    }
+    .item-sub{
+        font-size: 0.8rem;
+    }
+    .precio-sub{
+        font-size: 1.5rem;
+    }
+    .coffee-subs{
+        
+        width: 15%;
     }
 }    

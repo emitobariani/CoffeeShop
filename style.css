@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'fuente-icono';
+    src: url(./fuentes/YesevaOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'fuente-texto';
+    src: url(./fuentes/Marcellus-Regular.ttf);
+}
+@font-face {
+    font-family: 'fuente-second';
+    src: url(./fuentes/Chonburi.zip);
+}
+*{
+    margin: 0px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'fuente-texto';
+}
+
+.encabezado{
+    height: 100vh;
+    width: 100vw;
+    background-color:#b08968;
+}
+
+.barra-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    color: #562c2c;
+    /* position: fixed;
+    background-color:#b08968; */
+    
+}
+
+.opciones-barra{
+    margin: 0px 15px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.op{
+    transition: 0.3s;
+    cursor: pointer;
+}
+.op:hover{
+    color: aliceblue;
+}
+
+.icono-cafe{
+    font-family: 'fuente-icono';
+    font-size: 2.5rem;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: 0px 15px;
+}
+.principal{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-principal{
+    display: flex;
+    height: 60%;
+    width: 60%;
+    background-color:#ddb892;
+    border-radius: 25px;
+    
+}
+.sub-main{
+    height: 100%;
+    
+}
+.principal-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+    margin: 0px 30px;
+}
+.principal-2{
+    height: 100%;
+    width: 40%;
+    
+}
+.titulo-main{
+    font-size:2.2rem;
+}
+.cafe-h2{
+    font-family: 'fuente-icono' ;
+    transition: all 0.5s;
+    orientation: landscape;
+}
+.cafe-h2:hover{
+    color: whitesmoke;
+    tra
+}
+.descripcion-cafe{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+.btn-aventura{
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    width:50%;
+    height: 7%;
+    font-family:'fuente-icono';
+    font-size: 1.4rem;
+    cursor: pointer;
+    background-color: #432818;
+    color: white;
+    transition: 0.5s;
+    margin-top: 40px;
+    
+}
+.btn-aventura:hover{
+    background-color: white;
+    color:#432818;
+}
+.grano-cafe{
+    width: 100%;
+    height: 100%;
+    
+}
+.grano-cafe:hover{
+    color: #562c2c;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #562c2c;
+}
+.div-descripcion{
+    height: 30%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.suscripcion-titulo{
+    font-family: 'fuente-second';
+    font-size: 5rem;
+    font-weight: 700;
+    color:whitesmoke;
+}
+.suscripcion-descripcion{
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color:#ece2d0;
+}
+
+.div-op{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub-tiers{
+    height: 80%;
+    width: 20%;
+    background-color: #ece2d0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-image: url(./imagenes/cafesito.png);
+    background-size: cover;
+    color: black;
+    font-weight: 800;
+}
+.coffee-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:30%;
+    width:100%;
+}
+
+.coffee-subs{
+    margin: 15px;
+    width: 40%;
+}
+.subs-items{
+    margin-top:20px;
+}
+.sus-desc{
+    margin-top:20px;
+    font-size: 1.3rem;
+}
+.item-sub{
+    font-size: 1.1rem;
+}
+.titulo-sub{
+    font-size: 2.5rem;
+    transition: 0.3s;
+}
+.precio-sub{
+    font-family: 'fuente-icono';
+    font-size: 3rem;
+    font
+    font-weight: 800;
+    margin-top: 20px;
+}
+.bronce-opt:hover{
+    background-color:#ff9b54;
+    box-shadow: 15px 10px rgba(0, 0, 0, 0.4);
+}
+.silver-opt:hover{
+    background-color:#c7cedb;
+    box-shadow: 15px 10px rgba(0, 0, 0, 0.4);
+}
+.gold-opt:hover{
+    background-color:#f2bb05;
+    box-shadow: 15px 10px rgba(0, 0, 0, 0.4);
+}

@@ -17,6 +17,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'fuente-texto';
+    
 }
 
 .encabezado{
@@ -31,9 +32,8 @@ body{
     justify-content: space-between;
     width: 100%;
     height: 10%;
-    color: #562c2c;
-    /* position: fixed;
-    background-color:#b08968; */
+    color:antiquewhite ;
+    
     
 }
 
@@ -160,13 +160,13 @@ main{
     justify-content: center;
 }
 .suscripcion-titulo{
+    margin-top:5%;
     font-family: 'fuente-second';
     font-size: 5rem;
     font-weight: 700;
     color:whitesmoke;
 }
 .suscripcion-descripcion{
-    margin-top: 10px;
     font-size: 1.4rem;
     font-weight: 500;
     color:#ece2d0;
@@ -196,20 +196,28 @@ main{
     color: black;
     font-weight: 800;
 }
+.box{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 40%;
+    width: 100%;
+}
 .coffee-box{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
-    height:30%;
+    height:100%;
     width:100%;
 }
 
 .coffee-subs{
-    margin: 15px;
-    width: 40%;
+    align-self: flex-end;
+    width: 20%;
 }
 .subs-items{
     margin-top:20px;
+    height: ;
 }
 .sus-desc{
     margin-top:20px;
@@ -222,7 +230,17 @@ main{
     font-size: 2.5rem;
     transition: 0.3s;
 }
+.precio-sub-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
 .precio-sub{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
     font-family: 'fuente-icono';
     font-size: 3rem;
     font
@@ -308,6 +326,14 @@ main{
     .grano-cafe{
         height:400px;
         width: 300px;
+        
+    }
+    .box{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 30%;
+        width: 100%;
     }
     .titulo-main{
         font-size: 1.5rem;
@@ -339,7 +365,19 @@ main{
         text-align: center;
         
     }
-    
+    .coffee-subs{
+        width: 30%;
+    }
+    .precio-sub-box{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .item-sub{
+        font-size:0.9rem;
+    }
 }
 
 @media (max-width: 767px) and (min-width: 479px){
@@ -374,6 +412,21 @@ main{
         justify-content: center;
         align-items: center;
     }
+    .box{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 30%;
+        width: 100%;
+        margin: 0px;
+    }
+    .precio-sub-box{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
     .grano-cafe{
         height:300px;
         width: 220px;
@@ -385,6 +438,7 @@ main{
         font-size: 1.8rem;
         text-align: center;
 
+
     }
     .suscripcion-descripcion{
         text-align: center;
@@ -392,9 +446,10 @@ main{
         width: 90%;
         margin-left: 2%;
         margin-right:2%;
+        
     }
     .div-descripcion{
-        height: 20%;
+        height: 30%;
     }
     .div-op{
         justify-content: space-around;
@@ -438,7 +493,7 @@ main{
         font-size: 1.5rem;
     }
     .coffee-subs{
-        width: 20%;
+        width: 10%;
     }
 }
 @media (max-width: 478px) and (min-width: 320px){
@@ -553,7 +608,21 @@ main{
         font-size: 1.5rem;
     }
     .coffee-subs{
-        
-        width: 15%;
+        width: 10%;
+    }
+    .box{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 20%;
+        width: 100%;
+        margin: 0px;
+    }
+    .precio-sub-box{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
 }    
